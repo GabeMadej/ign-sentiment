@@ -1,7 +1,18 @@
 # Game Article Sentiment Analysis API
 
 ## Project Overview
-This project is a Flask-based web application that provides an API for sentiment analysis of video game articles. It scrapes content from IGN News, analyzing each article related to specified video games to calculate the average word count and sentiment score. The results are accessible via an API endpoint.
+This Flask-based web application was created to showcase advanced data analytics skills using python through the development of an API that performs sentiment analysis on video game articles.
+
+At its core, the application automates the process of extracting content from IGN News, targeting articles related to a predefined list of popular video games. It then employs natural language processing (NLP) techniques, specifically using nltk's SentimentIntensityAnalyzer, to analyze the sentiment conveyed in these articles. This analysis provides valuable insights into the public perception and reception of these games as reflected in the media.
+
+Key highlights of the project include:
+
+- **Automated Data Collection:** Leveraging Selenium and BeautifulSoup for robust web scraping, enabling the programmatic collection of relevant data.
+- **NLP and Sentiment Analysis:** Utilization of NLP techniques to understand and quantify the sentiment expressed in the articles. This involves complex text processing and sentiment scoring, showcasing the ability to derive meaningful insights from textual data.
+- **Data Aggregation and Analysis:** The application doesn't just collect data; it processes and aggregates it to calculate the average word count and overall sentiment score for each game. This demonstrates skills in data manipulation and statistical analysis.
+- **API Development:** Building a Flask-based API to serve the analyzed data, which can be easily accessed and utilized by other applications or services.
+
+The project is a testament to the ability to seamlessly integrate different aspects of data analytics, web development, and software engineering to create a functional and insightful application.
 
 ## Key Features
 - **Web Scraping**: Automated scraping of game-related articles from IGN News using Selenium and BeautifulSoup.
@@ -24,7 +35,7 @@ This project is a Flask-based web application that provides an API for sentiment
 ### Installation and Setup
 1. **Clone the repository:**
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/GabeMadej/ign-sentiment.git
    cd your-repo
    ```
 
