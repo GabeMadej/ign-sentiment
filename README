@@ -1,0 +1,57 @@
+# Game Article Sentiment Analysis API
+
+## Project Overview
+This project is a Flask-based web application that provides an API for sentiment analysis of video game articles. It scrapes content from IGN News, analyzing each article related to specified video games to calculate the average word count and sentiment score. The results are accessible via an API endpoint.
+
+## Key Features
+- **Web Scraping**: Automated scraping of game-related articles from IGN News using Selenium and BeautifulSoup.
+- **Sentiment Analysis**: Utilizes nltk's SentimentIntensityAnalyzer for sentiment analysis of article content.
+- **API Endpoints**: Flask-based API to retrieve analysis results.
+
+## Technologies Used
+- Python
+- Flask
+- Selenium
+- BeautifulSoup
+- nltk
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8 or later.
+- Flask, Selenium, BeautifulSoup, nltk, and other required libraries.
+
+### Installation and Setup
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+
+2. **Install dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Run the application:**
+   ```
+   python main.py
+   ```
+   This will start the Flask server and make the API accessible.
+
+### Using the API
+- To analyze a specific game and get its sentiment analysis, access the endpoint:
+  ```
+  http://localhost:8080/analyze/<game_name>
+  ```
+  Replace `<game_name>` with the name of the game you want to analyze. 
+
+### Customization
+- Modify the `game_names` list in the Python script to analyze different games.
+- You can also change the news source URL (`index_url`) and other parameters as per your requirements.
+
+## Contributing
+You are free to do with this as you will! It is just a project for my persona project.
+
+## License
+This project is open-sourced under the [MIT License](LICENSE).
