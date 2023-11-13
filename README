@@ -3,7 +3,7 @@
 ## Project Overview
 This Flask-based web application was created to showcase advanced data analytics skills using python through the development of an API that performs sentiment analysis on video game articles.
 
-At its core, the application automates the process of extracting content from IGN News, targeting articles related to a predefined list of popular video games. It then employs natural language processing (NLP) techniques, specifically using nltk's SentimentIntensityAnalyzer, to analyze the sentiment conveyed in these articles. This analysis provides valuable insights into the public perception and reception of these games as reflected in the media.
+I created this  application to automate the process of extracting content from IGN News, targeting articles related to a predefined list of popular video games. It then employs natural language processing (NLP) techniques, specifically using nltk's SentimentIntensityAnalyzer, to analyze the sentiment conveyed in these articles. This analysis provides valuable insights into the public perception and reception of these games as reflected in the media.
 
 Key highlights of the project include:
 
@@ -12,10 +12,10 @@ Key highlights of the project include:
 - **Data Aggregation and Analysis:** The application doesn't just collect data; it processes and aggregates it to calculate the average word count and overall sentiment score for each game. This demonstrates skills in data manipulation and statistical analysis.
 - **API Development:** Building a Flask-based API to serve the analyzed data, which can be easily accessed and utilized by other applications or services.
 
-The project is a testament to the ability to seamlessly integrate different aspects of data analytics, web development, and software engineering to create a functional and insightful application.
+The project was developed to showcase my ability to seamlessly integrate different aspects of data analytics, web development, and software programming to create a functional and insightful application.
 
 ## Key Features
-- **Web Scraping**: Automated scraping of game-related articles from IGN News using Selenium and BeautifulSoup.
+- **Web Scraping**: Automated scraping of game-related articles from IGN News using Selenium and BeautifulSoup. [Default is set to the first 10 articles so it might not return much]
 - **Sentiment Analysis**: Utilizes nltk's SentimentIntensityAnalyzer for sentiment analysis of article content.
 - **API Endpoints**: Flask-based API to retrieve analysis results.
 
